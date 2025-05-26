@@ -28,6 +28,7 @@
     </sort>
     <layout>
       <text variable="citation-number" suffix=".&#x200B;"/>
+      <group prefix="  ">
       <names variable="author">
         <name and="text" delimiter=", " initialize-with=". " delimiter-precedes-last="always"/>
         <et-al term="et-al" font-style="italic"/>
@@ -38,8 +39,8 @@
       <text variable="title" prefix=" " suffix=","/>
       <text variable="container-title" font-style="italic" suffix=","/>
       <group prefix=" ">
-        <text variable="volume" font-style="bold" suffix=","/>
-        <text variable="page"/>
+        <text variable="volume" font-style="bold"/>
+        <suffix="," text variable="page"/>
       </group>
     </layout>
   </bibliography>
