@@ -39,8 +39,8 @@
       <text variable="title" prefix=" " suffix=","/>
       <text variable="container-title" font-style="italic" suffix=","/>
       <group prefix=" ">
-        <text variable="volume" font-style="bold"/>
-        <suffix="," text variable="page"/>
+        <text variable="volume" font-weight="bold" suffix=" "/> 
+        < suffix="," text variable="page"/>
       </group>
     </layout>
   </bibliography>
