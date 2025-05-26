@@ -2,14 +2,14 @@
 <style xmlns="http://purl.org/net/xbiblio/csl" class="in-text" version="1.0" default-locale="en-US">
   <info>
     <title>Custom Biochemistry Moscow Style</title>
-    <id></id>
+    <id>http://www.zotero.org/styles/custom-biochemistry-moscow-style</id>
     <link href="http://www.example.com" rel="template"/>
     <author>
       <name>Polina Pugacheva</name>
     </author>
     <category citation-format="numeric"/>
     <category field="biology"/>
-    <updated>2023-10-20T00:00:00+00:00</updated>
+    <updated>2025-05-26T00:00:00+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">CC BY-SA 3.0</rights>
   </info>
 
