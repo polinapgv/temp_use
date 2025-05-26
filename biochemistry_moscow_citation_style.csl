@@ -36,10 +36,10 @@
       <date variable="issued" prefix=" (" suffix=")">
         <date-part name="year"/>
       </date>
-      <text variable="title" prefix=" " suffix=","/>
-      <text variable="container-title" font-style="italic" suffix=","/>
+      <text variable="title" prefix=" " suffix=", "/>
+      <text variable="container-title" font-style="italic" suffix=", "/>
       <group prefix=" ">
-        <text variable="volume" font-weight="bold" suffix=","/> 
+        <text variable="volume" font-weight="bold" suffix=", "/> 
         <text variable="page"/>
       </group>
     </layout>
