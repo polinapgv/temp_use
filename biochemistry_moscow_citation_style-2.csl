@@ -28,7 +28,7 @@
     </sort>
     <layout>
       <text variable="citation-number" suffix=". "/>
-      <group prefix="    " suffix="">
+      <group prefix="&#9;" suffix="">
         <names variable="author" prefix="    ">
           <name and="text" delimiter=", " initialize-with=". " delimiter-precedes-last="always"/>
         </names>
