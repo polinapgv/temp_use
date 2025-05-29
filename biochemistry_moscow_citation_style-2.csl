@@ -29,7 +29,7 @@
     <layout>
       <text variable="citation-number" suffix=". "/>
       <group prefix="&#9;" suffix="">
-        <names variable="author" prefix="        ">
+        <names variable="author">
           <name and="text" delimiter=", " initialize-with=". " delimiter-precedes-last="always"/>
         </names>
         <date variable="issued" prefix=" (" suffix=")">
@@ -39,7 +39,7 @@
         <text variable="container-title" font-style="italic" prefix=" " suffix=","/>
         <group prefix=" ">
           <text variable="volume" font-weight="bold"/>
-          <text variable="page" prefix=", "/>
+          <text variable="page" prefix=", " suffix="."/>
         </group>
       </group>
     </layout>
