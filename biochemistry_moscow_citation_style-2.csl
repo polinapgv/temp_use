@@ -9,7 +9,7 @@
     </author>
     <category citation-format="numeric"/>
     <category field="biology"/>
-    <updated>2025-05-26T00:00:00+00:00</updated>
+    <updated>2025-05-29T00:00:00+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">CC BY-SA 3.0</rights>
   </info>
 
@@ -29,7 +29,7 @@
     <layout>
       <text variable="citation-number" suffix=". "/>
       <group prefix="&#9;" suffix="">
-        <names variable="author">
+        <names variable="author" prefix="&#9;">
           <name and="text" delimiter=", " initialize-with=". " delimiter-precedes-last="always"/>
         </names>
         <date variable="issued" prefix=" (" suffix=")">
