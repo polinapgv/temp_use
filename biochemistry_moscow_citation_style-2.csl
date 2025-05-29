@@ -28,8 +28,8 @@
     </sort>
     <layout>
       <text variable="citation-number" suffix=". "/>
-      <group prefix="&#9;" suffix="">
-        <names variable="author" prefix="    ">
+      <group prefix="        " suffix="">
+        <names variable="author" prefix="        ">
           <name and="text" delimiter=", " initialize-with=". " delimiter-precedes-last="always"/>
         </names>
         <date variable="issued" prefix=" (" suffix=")">
