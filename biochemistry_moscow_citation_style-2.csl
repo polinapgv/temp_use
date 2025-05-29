@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<style xmlns="http://purl.org/net/xbiblio/csl" class="in-text" version="1.0" default-locale="en-US">
+  <info>
+    <title>Biochemistry Moscow Style</title>
+    <id>http://www.zotero.org/styles/biochemistry-moscow-full-authors</id>
+    <link href="http://www.example.com" rel="template"/>
+    <author>
+      <name>Polina Pugacheva</name>
+    </author>
+    <category citation-format="numeric"/>
+    <category field="biology"/>
+    <updated>2025-05-26T00:00:00+00:00</updated>
+    <rights license="http://creativecommons.org/licenses/by-sa/3.0/">CC BY-SA 3.0</rights>
+  </info>
+
+  <citation collapse="citation-number">
+    <sort>
+      <key variable="citation-number"/>
+    </sort>
+    <layout prefix="[" suffix="]">
+      <text variable="citation-number"/>
+    </layout>
+  </citation>
+
+<bibliography hanging-indent="false" entry-spacing="0">
+    <sort>
+      <key variable="citation-number"/>
+    </sort>
+    <layout>
+      <text variable="citation-number" suffix=". "/>
+      <group prefix="&#9;" suffix="">
+        <names variable="author" prefix="&#9;">
+          <name and="text" delimiter=", " initialize-with=". " delimiter-precedes-last="always"/>
+        </names>
+        <date variable="issued" prefix=" (" suffix=")">
+          <date-part name="year"/>
+        </date>
+        <text variable="title" prefix=" " suffix=","/>
+        <text variable="container-title" font-style="italic" prefix=" " suffix=","/>
+        <group prefix=" ">
+          <text variable="volume" font-weight="bold"/>
+          <text variable="page" prefix=", "/>
+        </group>
+      </group>
+    </layout>
+  </bibliography>
+</style>
