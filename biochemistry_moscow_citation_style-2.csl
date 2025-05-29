@@ -22,13 +22,13 @@
     </layout>
   </citation>
 
-<bibliography hanging-indent="false" entry-spacing="0">
+<bibliography hanging-indent="true" entry-spacing="0">
     <sort>
       <key variable="citation-number"/>
     </sort>
     <layout>
       <text variable="citation-number" suffix=". "/>
-      <group prefix="        " suffix="">
+      <group prefix="&#9;" suffix="">
         <names variable="author" prefix="        ">
           <name and="text" delimiter=", " initialize-with=". " delimiter-precedes-last="always"/>
         </names>
