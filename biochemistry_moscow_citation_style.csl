@@ -36,7 +36,14 @@
           <date-part name="year"/>
         </date>
         <text variable="title" prefix=" " suffix=","/>
-        <text variable="container-title" font-style="italic" form="short" prefix=" " suffix=","/>
+        <choose>
+          <if variable="container-title-short">
+            <text variable="container-title-short" font-style="italic" prefix=" " suffix=","/>
+          </if>
+          <else>
+            <text variable="container-title" font-style="italic" prefix=" " suffix=","/>
+          </else>
+        </choose>
         <group prefix=" ">
           <text variable="volume" font-weight="bold"/>
           <text variable="page" prefix=", " suffix="."/>
