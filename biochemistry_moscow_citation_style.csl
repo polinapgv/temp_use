@@ -22,7 +22,7 @@
     </layout>
   </citation>
 
-  <bibliography hanging-indent="true" entry-spacing="0">
+<bibliography hanging-indent="true" entry-spacing="0">
     <sort>
       <key variable="citation-number"/>
     </sort>
@@ -36,14 +36,7 @@
           <date-part name="year"/>
         </date>
         <text variable="title" prefix=" " suffix=","/>
-        <choose>
-          <if type="article-journal">
-            <text macro="journal-abbreviation" font-style="italic" prefix=" " suffix=","/>
-          </if>
-          <else>
-            <text variable="container-title" font-style="italic" prefix=" " suffix=","/>
-          </else>
-        </choose>
+        <text variable="container-title" form="short" font-style="italic" prefix=" " suffix=","/>
         <group prefix=" ">
           <text variable="volume" font-weight="bold"/>
           <text variable="page" prefix=", " suffix="."/>
@@ -51,15 +44,4 @@
       </group>
     </layout>
   </bibliography>
-  
-  <macro name="journal-abbreviation">
-    <choose>
-      <if variable="short-title">
-        <text variable="short-title"/>
-      </if>
-      <else>
-        <text variable="container-title"/>
-      </else>
-    </choose>
-  </macro>
 </style>
