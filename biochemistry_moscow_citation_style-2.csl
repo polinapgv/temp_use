@@ -30,7 +30,7 @@
       <text variable="citation-number" suffix=". "/>
       <group prefix="&#9;" suffix="">
         <names variable="author" prefix="      ">
-          <name and="text" delimiter=", " initialize-with=". " delimiter-precedes-last="always"/>
+          <name name-as-sort-order="all" sort-separator=", " and="text" delimiter=", " initialize-with=". " delimiter-precedes-last="always"/>
         </names>
         <date variable="issued" prefix=" (" suffix=")">
           <date-part name="year"/>
