@@ -36,7 +36,7 @@
           <date-part name="year"/>
         </date>
         <text variable="title" prefix=" " suffix=","/>
-        <text variable="container-title" form="short" font-style="italic" prefix=" " suffix=","/>
+        <text variable="container-title" font-style="italic" form="short" prefix=" " suffix=","/>
         <group prefix=" ">
           <text variable="volume" font-weight="bold"/>
           <text variable="page" prefix=", " suffix="."/>
